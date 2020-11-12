@@ -1,0 +1,21 @@
+{
+  "name": "Sunshine",
+  "short_name": "Sunshine",
+  "icons": [{
+    "src": "./assets/img/logo.svg",
+    "type": "image/svg+xml",
+    "sizes": "48x48 72x72 96x96 128x128 256x256"
+  }, {
+    "src": "./assets/img/logo-512x512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }, {
+    "src": "./assets/img/logo-192x192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2F3BA2",
+  "theme_color": "#2F3BA2"
+}

@@ -1,0 +1,49 @@
+#search {
+  .toolbar ul {
+    padding-left: 300px;
+
+    @media only screen and (max-width : 992px) {
+      padding-left: 0;
+    }
+  }
+
+  .card {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left: 300px;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+    padding-bottom: 40px;
+
+    @media only screen and (max-width : 992px) {
+      left: 0;
+    }
+
+    &.active {
+      opacity: 1;
+      visibility: visible;
+      pointer-events: auto;
+    }
+
+    &-content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    ul {
+      overflow: auto;
+    }
+
+    .close {
+      float: right;
+    }
+  }
+}
