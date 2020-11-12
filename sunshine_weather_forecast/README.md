@@ -1,5 +1,18 @@
 # Sunshine App
 
+## Autores
+
+
+João Pedro ([@joaoD3V](https://github.com/joaoD3V))
+
+Lucas Azevedo ([@lucas-az](https://github.com/lucas-az))
+
+
+---
+
+
+
+
 ## Instalação e execução
 
 **Instalação das dependências**
